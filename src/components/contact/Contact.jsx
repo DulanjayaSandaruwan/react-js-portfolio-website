@@ -32,32 +32,32 @@ const Contact = () => {
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
-      <div className="container contact__container">
-        <div className="contact__options">
-          <article className="contact__option">
-            <MdMailOutline className='contact__option-icon'/>
-            <h4>E-Mail</h4>
-            <h5>dulanjayasandaruwan1998@gmail.com</h5>
-            <a href="mailto:dulanjayasandaruwan1998@gmail.com">Send a message</a>
+      <div className="container contact__container" data-aos="zoom-in">
+        <div className="contact__options" data-aos="zoom-in">
+          <article className="contact__option" data-aos="zoom-in">
+            <MdMailOutline className='contact__option-icon' data-aos="zoom-in"/>
+            <h4 data-aos="zoom-in">E-Mail</h4>
+            <h5 data-aos="zoom-in">dulanjayasandaruwan1998@gmail.com</h5>
+            <a href="mailto:dulanjayasandaruwan1998@gmail.com" data-aos="zoom-in">Send a message</a>
           </article>
-          <article className="contact__option">
-            <AiOutlineLinkedin className='contact__option-icon'/>
-            <h4>Linkedin</h4>
-            <h5>Dulanjaya Sandaruwan</h5>
-            <a href="https://www.linkedin.com/in/dulanjaya-sandaruwan-11b334220">Send a message</a>
+          <article className="contact__option" data-aos="zoom-in">
+            <AiOutlineLinkedin className='contact__option-icon' data-aos="zoom-in"/>
+            <h4 data-aos="zoom-in">Linkedin</h4>
+            <h5 data-aos="zoom-in">Dulanjaya Sandaruwan</h5>
+            <a href="https://www.linkedin.com/in/dulanjaya-sandaruwan-11b334220" data-aos="zoom-in">Send a message</a>
           </article>
-          <article className="contact__option">
-            <BsWhatsapp className='contact__option-icon'/>
-            <h4>Whats App</h4>
-            <h5>+94769654764</h5>
-            <a href="https://wa.me/94769654764">Send a message</a>
+          <article className="contact__option" data-aos="zoom-in">
+            <BsWhatsapp className='contact__option-icon' data-aos="zoom-in"/>
+            <h4 data-aos="zoom-in">Whats App</h4>
+            <h5 data-aos="zoom-in">+94769654764</h5>
+            <a href="https://wa.me/94769654764" data-aos="zoom-in">Send a message</a>
           </article>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='Your E-Mail' required />
-          <textarea name="message" rows="10" placeholder='Your Message'></textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+        <form ref={form} onSubmit={sendEmail} data-aos="zoom-in">
+          <input type="text" name='name' placeholder='Your Full Name' required data-aos="zoom-in"/>
+          <input type="email" name='email' placeholder='Your E-Mail' required data-aos="zoom-in"/>
+          <textarea name="message" rows="10" placeholder='Your Message' data-aos="zoom-in"></textarea>
+          <button type='submit' className='btn btn-primary' data-aos="zoom-in">Send Message</button>
         </form>
       </div>
 

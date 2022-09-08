@@ -16,67 +16,67 @@ const Experience = () => {
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
 
-      <div className="container experience__container">
-        <div className="experience__frontend">
+      <div className="container experience__container" data-aos="zoom-in">
+        <div className="experience__frontend" data-aos="zoom-in">
           <h3>FrontEnd Development</h3>
-          <div className="experience__content">
-          <article className='experience__details'>
+          <div className="experience__content" data-aos="zoom-in">
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Java FX</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>HTML</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>CSS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>JavaScript</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Bootstrap</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>React</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Angular</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Material UI</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>React-Native</h4>
@@ -85,52 +85,52 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        <div className="experience__backend">
+        <div className="experience__backend" data-aos="zoom-in">
         <h3>BackEnd Development</h3>
-          <div className="experience__content">
-            <article className='experience__details'>
+          <div className="experience__content" data-aos="zoom-in">
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Java</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Node JS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>MySQL</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Mongo DB</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Spring</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Spring Boot</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            <article className='experience__details'>
+            <article className='experience__details' data-aos="zoom-in">
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Express JS</h4>
