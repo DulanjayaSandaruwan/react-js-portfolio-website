@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Services.css'
 import {ImRadioChecked} from 'react-icons/im'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Services = () => {
+
+  useEffect(() => {
+    AOS.init({duration: 1000});
+  }, []);
+
   return (
-    <section id='services'>
+    <section id='services' data-aos="zoom-in">
       <h5>What I Offer</h5>
       <h2>Services</h2>
 

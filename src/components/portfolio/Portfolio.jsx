@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Portfolio.css'
 import IMG1 from '../../assets/p1.webp'
 import IMG2 from '../../assets/p2.webp'
@@ -6,10 +6,17 @@ import IMG3 from '../../assets/p3.webp'
 import IMG4 from '../../assets/p4.webp'
 import IMG5 from '../../assets/p5.webp'
 import IMG6 from '../../assets/p6.webp'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Portfolio = () => {
+
+  useEffect(() => {
+    AOS.init({duration: 1000});
+  }, []);
+
   return (
-    <section id='portfolio'>
+    <section id='portfolio' data-aos="zoom-in">
       <h5>My Recent Works</h5>
       <h2>Portfolio</h2>
 

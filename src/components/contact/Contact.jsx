@@ -1,14 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Contact.css'
 import {MdMailOutline} from 'react-icons/md'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Contact = () => {
 
   const form = useRef();
+
+  useEffect(() => {
+    AOS.init({duration: 1000});
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -22,7 +28,7 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact'>
+    <section id='contact' data-aos="zoom-in">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
