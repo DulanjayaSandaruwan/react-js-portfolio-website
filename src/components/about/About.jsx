@@ -1,17 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './About.css'
 import ME from '../../assets/me-about.jpeg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const About = () => {
+  
+  useEffect(() => {
+    AOS.init({duration: 1000});
+  }, []);
+
   return (
-    <section id='about'>
+    <section id='about' data-aos="zoom-in">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
-      <div className="container about__container">
+      <div className="container about__container"> 
         <div className="about__me">
           <div className="about__me-image">
             <img src={ME} alt="About Image" />

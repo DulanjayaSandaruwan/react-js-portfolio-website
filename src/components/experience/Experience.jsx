@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Experience = () => {
+
+  useEffect(() => {
+    AOS.init({duration: 1000});
+  }, []);
+
+
   return (
-    <section id='experience'>
+    <section id='experience' data-aos="zoom-in">
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
 
