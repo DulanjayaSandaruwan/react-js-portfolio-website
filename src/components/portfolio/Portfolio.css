@@ -24,6 +24,12 @@
 
 .portfolio__item h3 {
   margin: 1.2rem 0 2rem;
+  color: var(--color-primary);
+}
+
+.portfolio__item p {
+  margin: 1.2rem 0 2rem;
+  font-size: 13px;
 }
 
 .portfolio__item-cta {
@@ -31,6 +37,11 @@
   gap: 1rem;
   margin-bottom: 1rem;
   justify-content: center;
+}
+
+.explore-more__project {
+  margin: 5rem 0 2rem;
+  text-align: center;
 }
 
 /* ============= Media Query (Medium Devices) ============== */
