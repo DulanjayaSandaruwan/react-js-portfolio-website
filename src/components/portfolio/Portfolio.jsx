@@ -91,7 +91,7 @@ const Portfolio = () => {
 
       <div className="explore-more__project">
         <a href="https://github.com/DulanjayaSandaruwan?tab=repositories" target='_blank'>
-          <h4>Explore More >></h4></a>
+          <h4>Explore More ▶▶</h4></a>
       </div>
 
     </section>
